@@ -1,0 +1,60 @@
+# LangChain & related
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-core>=0.2.0
+langchain-openai>=0.1.6
+langchain-groq>=0.1.3
+langchainhub>=0.1.15
+langchain-google-genai
+
+# LLMs and embeddings
+openai>=1.30.1
+groq>=0.5.0
+google-generativeai>=0.5.4  # Gemini support
+together>=0.2.11  # optional if using Together API
+sentence-transformers>=2.2.2
+
+# FastAPI stack
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.1
+python-multipart
+aiofiles
+httpx
+
+# Unstructured + OCR
+unstructured[all-docs]>=0.13.2
+pytesseract>=0.3.10
+pdf2image>=1.17.0
+pdfminer.six>=20231228
+python-docx>=1.1.0
+pypandoc
+python-pptx>=0.6.23
+
+# Vision/image support
+Pillow>=10.3.0
+opencv-python-headless>=4.9.0.80
+
+# Vector DBs
+chromadb>=0.5.0
+
+
+
+
+# Utilities
+uuid
+tqdm
+python-dotenv
+pydantic>=2.6
+scikit-learn
+aiohttp
+tenacity
+
+# Optional: File handling
+PyMuPDF>=1.24.0
+beautifulsoup4
+lxml
+
+# For ipynb 
+ipykernel
+#for MongoDB
+pymongo
